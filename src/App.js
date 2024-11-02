@@ -3,7 +3,7 @@ import io from "socket.io-client";
 import './App.css';
 
 // Connect to the server
-const socket = io("http://localhost:4000");
+const socket = io("https://client-socket-chat-golang.onrender.com");
 
 const Chat = () => {
   const [message, setMessage] = useState("");
